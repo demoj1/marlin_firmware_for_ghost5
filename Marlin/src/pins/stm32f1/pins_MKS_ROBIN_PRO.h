@@ -220,7 +220,7 @@
   #if NEED_TOUCH_PINS
     #define TOUCH_CS_PIN                    PA7
   #else
-    #define BEEPER_PIN                      PC5
+    #define BEEPER_PIN                      -1
     #define BTN_ENC                         PG2
     #define BTN_EN1                         PG5
     #define BTN_EN2                         PG4
@@ -234,7 +234,7 @@
 
 #elif HAS_WIRED_LCD
 
-  #define BEEPER_PIN                        PC5
+  #define BEEPER_PIN                        -1
   #define BTN_ENC                           PG2
   #define LCD_PINS_ENABLE                   PG0
   #define LCD_PINS_RS                       PG1

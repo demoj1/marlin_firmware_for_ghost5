@@ -68,7 +68,7 @@ https://easyeda.com/sst78rust/fb4s-led-control
 /*
 BlTouch
 */
-#define SERVO0_PIN                          PB2   
+#define SERVO0_PIN                          PB2
 #define BL_TOUCH_Z_PIN                      PC4
 
 //
@@ -135,7 +135,7 @@ BlTouch
 /*
 Управление питанием
 */
-#define SUICIDE_PIN                       PE5   
+#define SUICIDE_PIN                       PE5
 #define SUICIDE_PIN_INVERTING             false
 
 
@@ -186,7 +186,7 @@ BlTouch
 //
 // LCD / Controller
 //
-#define BEEPER_PIN                          PC5
+#define BEEPER_PIN                          -1
 
 /**
  * Note: MKS Robin TFT screens use various TFT controllers.
@@ -310,4 +310,3 @@ BlTouch
   // Reduce baud rate to improve software serial reliability
   #define TMC_BAUD_RATE 19200
 #endif
-
